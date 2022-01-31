@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Gaurav",
+        "age": 23,
+        "DOB": "14/12/1998",
+        "catLover": true
+    },
+    {
+        "name": "Neha",
+        "age": 26,
+        "DOB": "31/01/1996",
+        "catLover": false
+    },
+    {
+        "name": "Saurav",
+        "age": 21,
+        "DOB": "02/08/1998",
+        "catLover": false
+    }
+
+]
