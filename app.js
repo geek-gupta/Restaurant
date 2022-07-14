@@ -4,11 +4,13 @@ const PORT = require('./config').PORT;
 const router = require('./routes/index');
 const catRouter = require('./routes/cat');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const app = express();
 
 app.use(bodyparse.urlencoded({extended: true}));
 app.use(bodyparse.json());
+app.use(cors());
 
 app.use('/', router);
 app.use('/cats', catRouter);
